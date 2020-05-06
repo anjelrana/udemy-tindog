@@ -1,0 +1,178 @@
+body {
+  font-family: sans-serif;
+    text-align: center;
+}
+h1,h2,h3, h4, h5, h6 {
+  font-family: sans-serif;
+}
+
+p {
+  color: #8f8f8f;
+}
+/* heading */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+
+.title-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+
+
+/* navigation bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+/* title section  */
+
+#title .container-fluid {
+  padding-top: 3%;
+  text-align: left;
+}
+/* section */
+.color-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+.white-section {
+  background-color: #fff;
+}
+
+/* downloading button */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* title image */
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 27%;
+}
+
+/* <!-- Features --> section */
+
+#features {
+  position: relative;
+}
+.feature-title {
+  font-weight: bold;
+}
+
+
+.feature-box {
+  padding: 5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* <!-- Features --> section */
+/* testimonials and press section */
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.testimonial-text {
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-image {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+/* pricing section */
+.pricing-title {
+  font-weight: bold;
+}
+#pricing {
+  padding: 100px;
+
+}
+
+.bu {
+  margin-top: 55px;
+}
+.price-text {
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* pricing section */
+/* Call to Action */
+#cta {
+  padding: 3% 15%;
+}
+
+#cta h3 {
+  padding-top: 5%;
+  font-size: 3rem;
+}
+
+/* bc is button of call to action */
+.bc {
+  margin: 7% 2% 8%;
+}
+
+/* footer */
+/* ic means footer icon  */
+.ic {
+  padding: 20px 10px;
+  color: #000;
+}
+
+@media (max-width:1030px) {
+  .title-image {
+    transform: rotate(0);
+    position: static;
+  }
+  #title .container-fluid {
+    text-align: center;
+  }
+}
